@@ -43,7 +43,8 @@ app.post("/webhook", async (req, res) => {
         console.log("ユーザーからのメッセージ：", msg_body);
 
         // アクセストークン
-        const token = "EAA1ZB9tBiqo0BOZCSTO8IsdJPU5xkXrTZAr7YyUqYpaDKGrY4e7g90lzLA9Iv2BjMpZCf0LJX8tUbDtfkQIcqFljsiyZCS5jBa9OXcPAgpLBIGFN2vuyCHc7qSXRVwmXVm6ftkHf8T7KITcRZBKsQwhDxjdTqkKwWxPid9FFz684GXhwJMnHilDxYTHRGR39PKdRZB2l3iVM3K7vNZC2t2hZCrqMX1d8lI1hENgZDZD";
+        const token =
+            "EAA1ZB9tBiqo0BOZCSTO8IsdJPU5xkXrTZAr7YyUqYpaDKGrY4e7g90lzLA9Iv2BjMpZCf0LJX8tUbDtfkQIcqFljsiyZCS5jBa9OXcPAgpLBIGFN2vuyCHc7qSXRVwmXVm6ftkHf8T7KITcRZBKsQwhDxjdTqkKwWxPid9FFz684GXhwJMnHilDxYTHRGR39PKdRZB2l3iVM3K7vNZC2t2hZCrqMX1d8lI1hENgZDZD";
         // 例:
         // const token = "EAAI...ZDZD";
 
